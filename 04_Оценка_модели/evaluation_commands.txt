@@ -1,0 +1,3 @@
+yolo task=detect mode=val model=E:/road_dataset/runs/detect/train/weights/best.pt data=E:/road_dataset/dataset_relabel.yaml imgsz=640 device=cpu workers=0
+
+yolo task=detect mode=predict model=E:/road_dataset/runs/detect/train/weights/best.pt source=E:/road_dataset/val/images imgsz=640 conf=0.42 iou=0.65 save=True
