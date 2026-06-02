@@ -1,0 +1,9 @@
+train: E:/road_dataset/relabel/train/images
+val: E:/road_dataset/relabel/val/images
+
+nc: 4
+names:
+  0: person
+  1: car
+  2: traffic_light
+  3: crosswalk
